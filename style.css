@@ -466,14 +466,16 @@ img {
         height: 600px; } }
     .hero-slides .single-hero-slide h4 {
       color: #ffffff;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9)}
       @media only screen and (max-width: 767px) {
         .hero-slides .single-hero-slide h4 {
           font-size: 18px; } }
     .hero-slides .single-hero-slide h2 {
       font-size: 60px;
       color: #ffffff;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9)}
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .hero-slides .single-hero-slide h2 {
           font-size: 48px; } }
@@ -1176,5 +1178,8 @@ img {
         color: #141414; }
   .academy-tabs-content .tab-content h6 {
     font-size: 18px; }
+.academy-logo img {
+  filter: blur(5px); /* Ajusta el valor según sea necesario */
+}
 
 /*# sourceMappingURL=style.css.map */
